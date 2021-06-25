@@ -2,7 +2,6 @@
 function evenlySpaced(first, second, last) {
     //Provide your solution here
     
-    function evenlySpaced(first, second, last) {
         let array = [first, second, last];
         array.sort(function (a, b) {
           return a - b;
@@ -15,7 +14,7 @@ function evenlySpaced(first, second, last) {
         let avg = (largest + smallest) / 2;
         return avg == middle;
       }
-}
+
       
 
 
